@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ContactUsActivity"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_hdng_contact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Contact us"
+            android:gravity="center"
+            android:textSize="20sp"/>
+
+        <Button
+            android:layout_marginTop="50dp"
+            android:id="@+id/btn_dial"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dial"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:layout_marginTop="50dp"
+            android:id="@+id/btn_call"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="call"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:layout_marginTop="50dp"
+            android:id="@+id/btn_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            />
+
+
+    </LinearLayout>
+</layout>

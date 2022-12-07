@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+        <EditText
+            android:id="@+id/et_height"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Height (cm)"
+            android:inputType="numberDecimal"
+            android:minHeight="48dp"> </EditText>
+
+
+        <EditText
+            android:layout_below="@id/et_height"
+            android:id="@+id/et_weight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Weight (kg)"
+            android:inputType="numberDecimal"
+            android:minHeight="48dp"> </EditText>
+
+
+        <Button
+            android:layout_below="@id/et_weight"
+            android:id="@+id/btn_calculate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Calculate"> </Button>
+
+        <TextView
+            android:layout_below="@id/btn_calculate"
+            android:id="@+id/tv_Tips"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="250dp"
+            android:gravity="center"/>
+
+    </RelativeLayout>
+</layout>
